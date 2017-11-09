@@ -5,6 +5,10 @@
  */
 package patatainfomaticaquetesaluda;
 
+import javax.swing.JOptionPane;
+
+
+
 /**
  *
  * @author ggarciaalvarez
@@ -16,6 +20,12 @@ public class Patatainfomaticaquetesaluda {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        JOptionPane.showMessageDialog(null, "Hola, soy la patata informatica.");
+        Preguntanombre obx1=new Preguntanombre();
+        obx1.setNombre(JOptionPane.showInputDialog("Serias tan amable de decirme tu nombre?"));
+        JOptionPane.showMessageDialog(null, "Muchas gracias");
+        Saludo obx2= new Saludo();
+        JOptionPane.showMessageDialog(null, "Hola "+obx2.Mandar()+(". Encantado de conocerte"));
     }
     
 }
