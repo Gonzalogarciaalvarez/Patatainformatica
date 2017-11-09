@@ -5,7 +5,6 @@
  */
 package patatainfomaticaquetesaluda;
 
-import javax.swing.JOptionPane;
 
 /**
  *
