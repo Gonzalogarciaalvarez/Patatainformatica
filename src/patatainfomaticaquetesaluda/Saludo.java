@@ -5,10 +5,19 @@
  */
 package patatainfomaticaquetesaluda;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author ggarciaalvarez
  */
 public class Saludo {
+    Preguntanombre obx1=new Preguntanombre();
+
+    public Saludo() {
+    }
     
+    public String Mandar(){
+        return obx1.getNombre();
+    }
 }
