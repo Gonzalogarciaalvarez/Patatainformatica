@@ -16,11 +16,11 @@ public static String nombre;
     public Preguntanombre() {
     }
 
-    public static String getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    public static void setNombre(String nombre) {
+    public void setNombre(String nombre) {
         Preguntanombre.nombre = nombre;
     }
        
