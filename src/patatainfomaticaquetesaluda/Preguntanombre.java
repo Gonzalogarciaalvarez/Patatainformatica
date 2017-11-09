@@ -5,13 +5,12 @@
  */
 package patatainfomaticaquetesaluda;
 
-
-
 /**
  *
  * @author ggarciaalvarez
  */
 public class Preguntanombre {
+    
 public static String nombre;
 
     public Preguntanombre() {
@@ -26,6 +25,5 @@ public static String nombre;
     }
        
 
-   
-}
 
+}
